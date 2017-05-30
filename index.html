@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <title>Firefox blur/focus issue between frames</title>
-    <script type="text/javascript" src="./host.js" defer></script>
+    <script type="text/javascript" src="./static/host.js" defer></script>
 </head>
 <body tabindex="-1">
     <h2>This frame works as expected</h2>
     <iframe
-      src="./child.html"
+      src="./static/child.html"
       sandbox="allow-forms allow-scripts allow-same-origin"
       scrolling="no"
       width="400"
@@ -17,7 +17,7 @@
       ></iframe>
     <h2>This frame does not</h2>
     <iframe
-      src="./child.html"
+      src="./static/child.html"
       sandbox="allow-forms allow-scripts"
       scrolling="no"
       width="400"

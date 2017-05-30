@@ -2,6 +2,8 @@
 
 ## Instructions
 
+To run locally:
+
 ```
 git clone https://github.com/scottrabin/focus-firefox-repro.git
 cd focus-firefox-repro
@@ -9,14 +11,16 @@ yarn install
 yarn start
 ```
 
+To view on Github Pages:
+[https://scottrabin.github.io/focus-firefox-repro/index.html](https://scottrabin.github.io/focus-firefox-repro/index.html)
+
 ## How to Reproduce
 
 ### Steps:
 
-1. Visit https://scottrabin.github.io/focus-firefox-repro/static/
-2. Click the button in the child `<iframe>` element at the top of the page
-3. Click the input element now visible in the top frame
-4. Enter text into the input element
+1. Click the button in the child `<iframe>` element at the top of the page
+2. Click the input element now visible in the top frame
+3. Enter text into the input element
 
 ### Expected Result:
 
